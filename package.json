@@ -8,10 +8,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "pinia": "^2.0.14",
+    "vue": "^3.2.25",
+    "vue-router": "4"
   },
   "devDependencies": {
+    "@iconify/json": "^2.1.68",
     "@vitejs/plugin-vue": "^2.3.3",
-    "vite": "^2.9.9"
+    "unplugin-icons": "^0.14.5",
+    "unplugin-vue-components": "^0.20.1",
+    "vite": "^2.9.9",
+    "vite-plugin-windicss": "^1.8.5",
+    "windicss": "^3.5.5"
   }
 }
