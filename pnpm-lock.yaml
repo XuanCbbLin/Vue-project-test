@@ -4,6 +4,7 @@ specifiers:
   '@iconify/json': ^2.1.68
   '@vitejs/plugin-vue': ^2.3.3
   pinia: ^2.0.14
+  prettier: 2.7.1
   unplugin-icons: ^0.14.5
   unplugin-vue-components: ^0.20.1
   vite: ^2.9.9
@@ -20,6 +21,7 @@ dependencies:
 devDependencies:
   '@iconify/json': 2.1.68
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.12+vue@3.2.37
+  prettier: 2.7.1
   unplugin-icons: 0.14.5_vite@2.9.12
   unplugin-vue-components: 0.20.1_vite@2.9.12+vue@3.2.37
   vite: 2.9.12
@@ -784,6 +786,12 @@ packages:
       nanoid: 3.3.4
       picocolors: 1.0.0
       source-map-js: 1.0.2
+
+  /prettier/2.7.1:
+    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
 
   /queue-microtask/1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
