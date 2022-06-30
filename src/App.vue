@@ -2,7 +2,7 @@
   <router-link to="/">Home</router-link> |
   <router-link to="/about">About</router-link>
 
-  <component :is="pathComponent[$route.fullPath]"></component>
+  <router-view />
 </template>
 
 <script>
@@ -27,4 +27,12 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.router-link-active {
+  color: red;
+}
+
+.router-link-exact-active {
+  color: blue;
+}
+</style>
