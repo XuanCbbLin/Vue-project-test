@@ -1,6 +1,6 @@
 <template>
-  <a href="/" @click.prevent="$router.push('/')">Home</a> |
-  <a href="/about" @click.prevent="$router.push('/about')">About</a>
+  <router-link to="/">Home</router-link> |
+  <router-link to="/about">About</router-link>
 
   <component :is="pathComponent[$route.fullPath]"></component>
 </template>
