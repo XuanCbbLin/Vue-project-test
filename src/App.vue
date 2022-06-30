@@ -33,6 +33,6 @@ export default {
 }
 
 .router-link-exact-active {
-  color: blue;
+  color: darkorange;
 }
 </style>
