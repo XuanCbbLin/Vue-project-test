@@ -1,8 +1,5 @@
 <template>
-  <h1 class="text-yellow-600">About</h1>
-  <router-view v-slot="{ Component }">
-    <component :is="Component" />
-  </router-view>
+  <h1>About</h1>
 </template>
 
 <script>
