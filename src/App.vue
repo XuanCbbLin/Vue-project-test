@@ -2,9 +2,11 @@
   <!-- <router-link to="/">Home</router-link> | -->
   <!-- <router-link to="/about">About</router-link> -->
 
-  <DynamicComponent />
+  <!-- <DynamicComponent /> -->
 
   <!-- <router-view /> -->
+
+  <router-link to="/" :class="{ disabled: isDisabled }">Home</router-link>
 </template>
 
 <script>
@@ -24,19 +26,25 @@ export default {
       "/about": "About",
     };
 
+    const isDisabled = true;
+
     return {
       pathComponent,
+      isDisabled,
     };
   },
 };
 </script>
 
 <style>
-.router-link-active {
+/* .router-link-active {
   color: red;
 }
 
 .router-link-exact-active {
   color: darkorange;
+} */
+.disabled {
+  cursor: not-allowed;
 }
 </style>
