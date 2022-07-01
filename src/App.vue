@@ -6,19 +6,22 @@
 
   <!-- <router-view /> -->
 
-  <router-link to="/" :class="{ disabled: isDisabled }">Home</router-link>
+  <!-- <router-link to="/" :class="{ disabled: isDisabled }">Home</router-link> -->
+  <RouterLinkDisable />
 </template>
 
 <script>
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
 import DynamicComponent from "./component/DynamicComponent.vue";
+import RouterLinkDisable from "./component/RouterLinkDisable.vue";
 
 export default {
   components: {
     Home,
     About,
     DynamicComponent,
+    RouterLinkDisable,
   },
   setup() {
     const pathComponent = {
