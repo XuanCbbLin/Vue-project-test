@@ -7,7 +7,8 @@
   <!-- <router-view /> -->
 
   <!-- <router-link to="/" :class="{ disabled: isDisabled }">Home</router-link> -->
-  <RouterLinkDisable />
+  <!-- <RouterLinkDisable /> -->
+  <AtagSimulationRouterLink />
 </template>
 
 <script>
@@ -15,6 +16,7 @@ import Home from "./views/Home.vue";
 import About from "./views/About.vue";
 import DynamicComponent from "./component/DynamicComponent.vue";
 import RouterLinkDisable from "./component/RouterLinkDisable.vue";
+import AtagSimulationRouterLink from "./component/AtagSimulationRouterLink.vue";
 
 export default {
   components: {
@@ -22,6 +24,7 @@ export default {
     About,
     DynamicComponent,
     RouterLinkDisable,
+    AtagSimulationRouterLink,
   },
   setup() {
     const pathComponent = {

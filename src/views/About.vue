@@ -1,8 +1,8 @@
 <template>
   <h1>About</h1>
-  <router-link :to="'/about/AboutPost'">AboutPost</router-link>
+  <!-- <router-link :to="'/about/AboutPost'">AboutPost</router-link>
 
-  <router-view />
+  <router-view /> -->
 </template>
 
 <script>
